@@ -26,6 +26,7 @@ dependencies {
     compile 'net.serenity-bdd:serenity-junit:1.8.3'
     compile 'net.serenity-bdd:serenity-screenplay:1.8.3'
     compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.8.3'
+    compile "org.slf4j:slf4j-simple:1.7.9";
     testCompile('junit:junit:4.12')
 }
 gradle.startParameter.continueOnFailure = true
