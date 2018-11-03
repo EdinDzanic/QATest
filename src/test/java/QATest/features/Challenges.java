@@ -29,7 +29,7 @@ public class Challenges {
     OpenTheWebpage openTheWebpage;
 
     @Before
-    public void annaCanBrowseTheWeb() {
+    public void canBrowseTheWeb() {
         user.can(BrowseTheWeb.with(browser));
     }
 
